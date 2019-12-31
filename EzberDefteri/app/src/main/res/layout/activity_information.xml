@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_ui_background"
+    android:orientation="vertical"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text='       Öncelikle uygulamaya ana ekrandan "Kelime ekle" butonuna basarak çıkan sayfada ezberlemek istediğiniz kelime ve hedef dildeki anlamını yazınız. Sonra "Kaydet" tuşuna basarak ana ekranda oluşan ezber şablonunda ezberlemek istediğiniz kelimenin anlamını görmek için kelimenin bulunduğu butona basınız. İsterseniz ezberlediğiniz kelimeleri çöp kutusu ikonuna basarak silebilirsiniz.'
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF9F31"
+        android:text="Tamam"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FF7F00"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
